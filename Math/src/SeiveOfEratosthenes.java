@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class SeiveOfEratosthenes {
 
     public static void main(String[] args) {
-        seive(200);
+        seive(100);
     }
 
     private static void seive(int n) {
@@ -19,7 +19,8 @@ public class SeiveOfEratosthenes {
         }
         for(int i = 2; i <= n; i++) {
             if(isPrime[i])
-                System.out.print(i + " ");
+                System.out.print(i + ", ");
         }
     }
 }
+

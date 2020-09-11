@@ -1,12 +1,12 @@
 public class MultiplicationUnderModulo {
 
     public static void main(String[] args) {
-        long a = 1000000007;
-        long b = 1000000089;
+        int a = Integer.MAX_VALUE;
+        int b = Integer.MAX_VALUE;
         System.out.println(cal(a, b));
     }
 
-    private static long cal(long a, long b) {
+    private static int cal(int a, int b) {
         int M=1000000007;
         return ((a%M) * (b%M)) % M;
     }

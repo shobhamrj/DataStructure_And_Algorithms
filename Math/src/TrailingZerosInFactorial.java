@@ -11,3 +11,10 @@ public class TrailingZerosInFactorial {
         return result;
     }
 }
+/*
+time complexity =
+5^k <= n
+k <= log n  (log base 5)
+therefore time complexity = O(log n)
+
+ */
