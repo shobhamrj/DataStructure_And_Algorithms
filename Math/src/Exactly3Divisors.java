@@ -7,7 +7,7 @@ public class Exactly3Divisors {
     private static int cal(int n) {
         int count = 0;
         n = (int)Math.sqrt(n);
-        for(int i = 2 ; i <= n; i++) {
+        for(int i = 1 ; i <= n; i++) {
             if(CheckForPrime.isPrime(i))
                 count++;
         }
