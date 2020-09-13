@@ -12,6 +12,4 @@ public class SubSets {
         findSubset(str, curr, index + 1);
         findSubset(str, curr + str.charAt(index), index + 1);
     }
-
-
 }
