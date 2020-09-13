@@ -1,7 +1,7 @@
 public class Fibonacci {
 
     public static void main(String[] args) {
-        System.out.println(fib(5));
+        System.out.println(fib(20));
     }
 
     private static int fib(int n) {
