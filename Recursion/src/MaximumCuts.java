@@ -1,7 +1,7 @@
 public class MaximumCuts {
 
     public static void main(String[] args) {
-        System.out.println(maxCut(23, 11, 9, 12));
+        //System.out.println(maxCut(23, 11, 9, 12));
         System.out.println(maxCut(5, 2, 1, 5));
 
     }

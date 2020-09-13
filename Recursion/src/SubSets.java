@@ -6,7 +6,7 @@ public class SubSets {
 
     private static void findSubset(String str, String curr , int index ) {
         if(index == str.length()) {
-            System.out.print(curr.toString());
+            System.out.print(curr);
             return;
         }
         findSubset(str, curr, index + 1);
