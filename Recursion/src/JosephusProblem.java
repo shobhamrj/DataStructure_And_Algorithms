@@ -11,4 +11,4 @@ public class JosephusProblem {
 // T(n) = T(n - 1) + c
 // Time Complexity : O(n)
 // indices of people in a circle are considered from 0 here
-// for more read the Josephu's problem statement
+// for more read the Josephus's problem statement
