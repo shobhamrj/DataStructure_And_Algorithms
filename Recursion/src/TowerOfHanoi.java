@@ -1,7 +1,7 @@
 public class TowerOfHanoi {
 
     public static void main(String[] args) {
-        toh(10, 'A', 'B', 'C');
+        toh(20, 'A', 'B', 'C');
     }
 
     private static void toh(int n, char a, char b, char c) {
@@ -14,3 +14,4 @@ public class TowerOfHanoi {
         toh(n - 1, b, a, c);
     }
 }
+//Time Complexity: 2^(n)

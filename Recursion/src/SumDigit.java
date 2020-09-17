@@ -1,6 +1,6 @@
 public class SumDigit {
     public static void main(String[] args) {
-        System.out.println(sum(9999));
+        System.out.println(sum(99));
     }
 
     private static int sum(int n) {
