@@ -21,3 +21,5 @@ public class RemoveDuplicates {
         return result;
     }
 }
+//time Complexity: O(n)
+
