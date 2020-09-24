@@ -13,6 +13,28 @@ public class MaximumConsecutive1sInABinaryArray {
 
     private static int maxOnes(int[] arr) {
         int res = 0;
+        int curr = 0;
+        for(int i = 0; i < arr.length; i++) {
+            if(arr[i] == 0){
+                curr = 0;
+            }
+            else {
+                curr++;
+                res = Math.max(res, curr);
+            }
+        }
+        return res;
+    }
+
+
+}// Time Complexity: O(n)
+
+
+/*
+ a naive solution of time complexity O(n^2) in worst case
+
+     private static int maxOnes(int[] arr) {
+        int res = Integer.MIN_VALUE;
         for(int i = 0; i < arr.length; i++) {
             int curr = 0;
             for(int j = i; j < arr.length; j++) {
@@ -25,4 +47,4 @@ public class MaximumConsecutive1sInABinaryArray {
         }
         return res;
     }
-}
+ */
