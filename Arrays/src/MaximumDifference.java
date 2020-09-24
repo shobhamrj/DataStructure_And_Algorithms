@@ -10,6 +10,7 @@ public class MaximumDifference {
         System.out.println(maxDiff(array1));
         System.out.println(maxDiff(array2));
         System.out.println(maxDiff(array3));
+        
     }
 
     //find Max Value of arr[j] - arr[i] such that j > i
