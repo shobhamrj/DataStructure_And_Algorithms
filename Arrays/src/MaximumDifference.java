@@ -13,7 +13,7 @@ public class MaximumDifference {
         
     }
 
-    //find Max Value of arr[j] - arr[i] such that j > i
+    //find Max Value in array such that arr[j] - arr[i] such that j > i
     private static int maxDiff(int[] arr) {
         int res = arr[1] - arr[0];
         int minValue = arr[0];

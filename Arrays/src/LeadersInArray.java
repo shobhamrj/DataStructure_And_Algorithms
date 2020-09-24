@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class LeadersInArray {
 
     private static int[] array = {7, 10, 4, 10, 6, 5, 2};
